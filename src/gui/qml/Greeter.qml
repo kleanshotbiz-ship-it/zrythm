@@ -369,7 +369,7 @@ ApplicationWindow {
             MenuItem {
               // Handle about action
 
-              text: qsTr("About Zrythm")
+              text: qsTr("About CNLC Studio")
 
               onTriggered: aboutDialog.open()
             }
