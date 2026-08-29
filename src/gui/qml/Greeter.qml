@@ -47,7 +47,7 @@ ApplicationWindow {
   font.pointSize: ZrythmTheme.fontPointSize
   height: 420
   minimumWidth: 256
-  title: "Zrythm"
+  title: ""
   visible: true
   width: 640
 
