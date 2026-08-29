@@ -106,7 +106,7 @@ ZrythmApplication::ZrythmApplication (int &argc, char ** argv)
   setApplicationVersion (QString::fromUtf8 (PACKAGE_VERSION));
   setOrganizationName (u"Zrythm.org"_s);
   setOrganizationDomain (u"zrythm.org"_s);
-  setApplicationDisplayName (u"Zrythm"_s);
+  setApplicationDisplayName (u"CNLC Studio"_s);
 
   // doesn't work for some reason but the path is correct
   setWindowIcon (QIcon (":/qt/qml/Zrythm/icons/zrythm-dark/zrythm.svg"));

@@ -262,7 +262,7 @@ endif()
 # Common Variables
 #==============================================================================
 
-set(prog_name "Zrythm")
+set(prog_name "CNLC Studio")
 set(prog_name_lowercase "zrythm")
 set(bundle_identifier "org.zrythm.Zrythm")
 set(copyright_name "Alexandros Theodotou")
