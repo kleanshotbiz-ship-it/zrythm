@@ -139,7 +139,7 @@ ApplicationWindow {
           title: qsTr("Theme Color")
 
           Action {
-            text: qsTr("Zrythm Orange")
+            text: qsTr("CNLC Accent")
 
             onTriggered: {
               ZrythmTheme.primaryColor = ZrythmTheme.zrythmColor;

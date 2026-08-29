@@ -158,7 +158,7 @@ ApplicationWindow {
 
           Item {
             PlaceholderPage {
-              description: qsTr("Welcome to the Zrythm digital audio workstation. Move to the next page to get started.")
+              description: qsTr("Welcome to CNLC Studio. Move to the next page to get started.")
               icon.source: ResourceManager.getIconUrl("zrythm-dark", "zrythm.svg")
               title: qsTr("Welcome")
             }
@@ -166,7 +166,7 @@ ApplicationWindow {
 
           Item {
             PlaceholderPage {
-              description: qsTr("If this is your first time using Zrythm, we suggest going through the 'Getting Started' section in the %1user manual%2.").arg("<a href=\"" + Config.USER_MANUAL_URL + "\">").arg("</a>")
+              description: qsTr("If this is your first time using CNLC Studio, we suggest going through the 'Getting Started' section in the %1user manual%2.").arg("<a href=\"" + Config.USER_MANUAL_URL + "\">").arg("</a>")
               icon.source: ResourceManager.getIconUrl("gnome-icon-library", "open-book-symbolic.svg")
               title: qsTr("Read the Manual")
             }

@@ -17,7 +17,7 @@ Dialog {
   modal: true
   popupType: Popup.Window
   standardButtons: Dialog.Ok
-  title: stackView.currentItem ? stackView.currentItem.title : qsTr("About Zrythm")
+  title: stackView.currentItem ? stackView.currentItem.title : qsTr("About CNLC Studio")
   x: (parent.width - width) / 2
   y: (parent.height - height) / 2
 
@@ -54,7 +54,7 @@ Dialog {
     id: mainPage
 
     ColumnLayout {
-      property string title: qsTr("About Zrythm")
+      property string title: qsTr("About CNLC Studio")
 
       spacing: 8
 
@@ -69,7 +69,7 @@ Dialog {
         Layout.alignment: Qt.AlignHCenter
         font.bold: true
         font.pointSize: 16
-        text: "Zrythm"
+        text: "CNLC Studio"
       }
 
       Label {
