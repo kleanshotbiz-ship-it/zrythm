@@ -55,14 +55,14 @@ ApplicationWindow {
                 checkable: checkedFlow.checkableBoolData
                 checked: checkedFlow.checkableBoolData
                 enabled: enabledRepeater.enabledBoolData
-                icon.source: ResourceManager.getIconUrl("zrythm-dark", "zrythm-monochrome.svg")
+                icon.source: ResourceManager.getIconUrl("zrythm-dark", "cnlc-studio-monochrome.svg")
                 text: "Tool Button"
               }
 
               ToolButton {
                 checkable: checkedFlow.checkableBoolData
                 enabled: enabledRepeater.enabledBoolData
-                icon.source: ResourceManager.getIconUrl("zrythm-dark", "zrythm-monochrome.svg")
+                icon.source: ResourceManager.getIconUrl("zrythm-dark", "cnlc-studio-monochrome.svg")
               }
             }
           }
@@ -247,7 +247,7 @@ ApplicationWindow {
                 checkable: buttonFlow.index === 1
                 enabled: enabledRepeater2.enabledBoolData
                 highlighted: buttonFlow.index === 2
-                icon.source: Qt.resolvedUrl("qrc:/qt/qml/Zrythm/icons/zrythm-dark/zrythm-monochrome.svg")
+                icon.source: Qt.resolvedUrl("qrc:/qt/qml/Zrythm/icons/zrythm-dark/cnlc-studio-monochrome.svg")
                 text: "Button"
               }
 
@@ -256,7 +256,7 @@ ApplicationWindow {
                 checked: buttonFlow.index === 1
                 enabled: enabledRepeater2.enabledBoolData
                 highlighted: buttonFlow.index === 2
-                icon.source: Qt.resolvedUrl("qrc:/qt/qml/Zrythm/icons/zrythm-dark/zrythm-monochrome.svg")
+                icon.source: Qt.resolvedUrl("qrc:/qt/qml/Zrythm/icons/zrythm-dark/cnlc-studio-monochrome.svg")
               }
 
               RoundButton {
@@ -274,7 +274,7 @@ ApplicationWindow {
                 checkable: buttonFlow.index === 1
                 enabled: enabledRepeater2.enabledBoolData
                 highlighted: buttonFlow.index === 2
-                icon.source: Qt.resolvedUrl("qrc:/qt/qml/Zrythm/icons/zrythm-dark/zrythm-monochrome.svg")
+                icon.source: Qt.resolvedUrl("qrc:/qt/qml/Zrythm/icons/zrythm-dark/cnlc-studio-monochrome.svg")
                 text: "Button"
               }
 
@@ -283,7 +283,7 @@ ApplicationWindow {
                 checked: buttonFlow.index === 1
                 enabled: enabledRepeater2.enabledBoolData
                 highlighted: buttonFlow.index === 2
-                icon.source: Qt.resolvedUrl("qrc:/qt/qml/Zrythm/icons/zrythm-dark/zrythm-monochrome.svg")
+                icon.source: Qt.resolvedUrl("qrc:/qt/qml/Zrythm/icons/zrythm-dark/cnlc-studio-monochrome.svg")
               }
             }
           }

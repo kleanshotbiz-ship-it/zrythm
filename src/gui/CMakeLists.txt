@@ -106,7 +106,7 @@ endforeach()
 
 if(OS_GNU)
   # Install app icon
-  install(FILES "${CMAKE_CURRENT_SOURCE_DIR}/resources/icons/zrythm-dark/scalable/apps/zrythm.svg"
+  install(FILES "${CMAKE_CURRENT_SOURCE_DIR}/resources/icons/zrythm-dark/scalable/apps/cnlc-studio.svg"
     RENAME "org.zrythm.Zrythm.svg"
     DESTINATION "share/icons/hicolor/scalable/apps"
     COMPONENT Runtime

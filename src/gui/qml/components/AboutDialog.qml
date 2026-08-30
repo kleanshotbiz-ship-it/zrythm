@@ -60,7 +60,7 @@ Dialog {
 
       Image {
         Layout.alignment: Qt.AlignHCenter
-        source: ResourceManager.getIconUrl("zrythm-dark", "zrythm.svg")
+        source: ResourceManager.getIconUrl("zrythm-dark", "cnlc-studio.svg")
         sourceSize.height: 64
         sourceSize.width: 64
       }

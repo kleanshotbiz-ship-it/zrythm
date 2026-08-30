@@ -657,7 +657,7 @@ Item {
 
           height: 25
           opacity: arrangerDropArea.containsDrag ? 0.8 : 0.0
-          source: ResourceManager.getIconUrl("zrythm-dark", "zrythm.svg")
+          source: ResourceManager.getIconUrl("zrythm-dark", "cnlc-studio.svg")
           width: 25
           x: arrangerDropArea.drag.x
           y: arrangerDropArea.drag.y

@@ -109,7 +109,7 @@ ZrythmApplication::ZrythmApplication (int &argc, char ** argv)
   setApplicationDisplayName (u"CNLC Studio"_s);
 
   // doesn't work for some reason but the path is correct
-  setWindowIcon (QIcon (":/qt/qml/Zrythm/icons/zrythm-dark/zrythm.svg"));
+  setWindowIcon (QIcon (":/qt/qml/Zrythm/icons/zrythm-dark/cnlc-studio.svg"));
 
   // # https://github.com/FFTW/fftw3/issues/16
   ThreadSafeFFTW ();

@@ -299,10 +299,10 @@ set(trademark_policy_url "${main_repo_url}/-/raw/master/TRADEMARKS.md")
 set(bug_report_api_endpoint "https://accounts.zrythm.org/api/v1/error-reports/new")
 set(latest_release_ver_url "https://www.zrythm.org/zrythm-version.txt")
 set(PLUGIN_SCANNER_UUID "f47ac10b")
-set(ZRYTHM_SVG_ICON "${CMAKE_CURRENT_SOURCE_DIR}/src/gui/resources/icons/zrythm-dark/scalable/apps/zrythm.svg")
+set(ZRYTHM_SVG_ICON "${CMAKE_CURRENT_SOURCE_DIR}/src/gui/resources/icons/zrythm-dark/scalable/apps/cnlc-studio.svg")
 set(ZRYTHM_ICNS_FILE_NAME "Zrythm.icns")
 set(ZRYTHM_ICNS_FILE_PATH "${CMAKE_CURRENT_BINARY_DIR}/${ZRYTHM_ICNS_FILE_NAME}")
-set(ZRYTHM_ICO_FILE "${CMAKE_CURRENT_SOURCE_DIR}/data/platform/windows/zrythm.ico")
+set(ZRYTHM_ICO_FILE "${CMAKE_CURRENT_SOURCE_DIR}/data/platform/windows/cnlc-studio.ico")
 set(ZRYTHM_BMP_FILE "${CMAKE_CURRENT_BINARY_DIR}/Zrythm.bmp")
 
 # if latest version in changelog is the project's

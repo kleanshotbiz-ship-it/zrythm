@@ -159,7 +159,7 @@ ApplicationWindow {
           Item {
             PlaceholderPage {
               description: qsTr("Welcome to CNLC Studio. Move to the next page to get started.")
-              icon.source: ResourceManager.getIconUrl("zrythm-dark", "zrythm.svg")
+              icon.source: ResourceManager.getIconUrl("zrythm-dark", "cnlc-studio.svg")
               title: qsTr("Welcome")
             }
           }
@@ -293,7 +293,7 @@ ApplicationWindow {
         }
 
         PlaceholderPage {
-          icon.source: ResourceManager.getIconUrl("zrythm-dark", "zrythm-monochrome.svg")
+          icon.source: ResourceManager.getIconUrl("zrythm-dark", "cnlc-studio-monochrome.svg")
           title: qsTr("Scanning Plugins")
         }
 
