@@ -10,7 +10,7 @@ import ZrythmStyle
 T.TabButton {
   id: control
 
-  readonly property color iconLabelColor: control.checked ? control.palette.brightText : control.palette.buttonText
+  readonly property color iconLabelColor: control.checked ? control.palette.highlight : control.palette.buttonText
 
   font: ZrythmTheme.semiBoldTextFont
   implicitHeight: Math.max(implicitBackgroundHeight + topInset + bottomInset, implicitContentHeight + topPadding + bottomPadding)
@@ -27,7 +27,7 @@ T.TabButton {
     bottomLeftRadius: isBeginning ? radiusToUse : 0
     bottomRightRadius: isEnd ? radiusToUse : 0
     color: {
-      let c = control.checked ? control.palette.highlight : control.palette.button;
+      let c = control.palette.button;
       if (control.down)
         return ZrythmTheme.getStrongerColor(c);
       else if (control.visualFocus || (control.hovered && !control.checked))
@@ -51,6 +51,15 @@ T.TabButton {
     border {
       color: control.palette.highlight
       width: control.visualFocus ? 2 : 0
+    }
+
+    Rectangle {
+      anchors.bottom: parent.bottom
+      anchors.left: parent.left
+      anchors.right: parent.right
+      color: control.palette.highlight
+      height: 2
+      visible: control.checked
     }
   }
   contentItem: IconLabel {

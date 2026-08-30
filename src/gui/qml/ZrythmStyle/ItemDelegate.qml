@@ -11,7 +11,7 @@ T.ItemDelegate {
   id: control
 
   font: ZrythmTheme.semiBoldTextFont
-  icon.color: control.highlighted ? control.palette.highlightedText : control.palette.text
+  icon.color: control.highlighted ? control.palette.highlight : control.palette.text
   icon.height: 24
   icon.width: 24
   implicitHeight: Math.max(implicitBackgroundHeight + topInset + bottomInset, implicitContentHeight + topPadding + bottomPadding, implicitIndicatorHeight + topPadding + bottomPadding)
@@ -20,7 +20,7 @@ T.ItemDelegate {
   spacing: 4
 
   background: Rectangle {
-    readonly property color baseColor: control.highlighted ? control.palette.highlight : control.palette.button
+    readonly property color baseColor: control.highlighted ? Qt.rgba(control.palette.highlight.r, control.palette.highlight.g, control.palette.highlight.b, 0.16) : control.palette.button
     readonly property color colorAdjustedForHoverOrFocusOrDown: ZrythmTheme.adjustColorForHoverOrVisualFocusOrDown(baseColor, hoverHandler.hovered && !control.highlighted, control.visualFocus, control.down)
 
     color: colorAdjustedForHoverOrFocusOrDown
@@ -34,7 +34,7 @@ T.ItemDelegate {
   }
   contentItem: IconLabel {
     alignment: control.display === IconLabel.IconOnly || control.display === IconLabel.TextUnderIcon ? Qt.AlignCenter : Qt.AlignLeft
-    color: control.highlighted ? control.palette.highlightedText : control.palette.text
+    color: control.highlighted ? control.palette.highlight : control.palette.text
     display: control.display
     font: control.font
     icon: control.icon
