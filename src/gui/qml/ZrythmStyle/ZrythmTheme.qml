@@ -1,8 +1,7 @@
 // SPDX-FileCopyrightText: © 2024-2025 Alexandros Theodotou <alex@zrythm.org>
 // SPDX-License-Identifier: LicenseRef-ZrythmLicense
-// zrythm color variant (accent | accent lighter | accent darker):
-// F79616 | FFA533 | D68A0C
-// more prominent: FF9F00 | FFB300 | F79616
+// CNLC Studio visual identity
+// Primary accent: E6FF00 | Dark surfaces: 0E0E10 / 151518 / 29292F
 
 pragma Singleton
 
@@ -24,8 +23,8 @@ QtObject {
       "weight": Font.Medium
     })
   property color backgroundAppendColor: darkMode ? Qt.rgba(1, 1, 1, 0.25) : Qt.rgba(0, 0, 0, 0.25) // color to be appended to things that stand out
-  property color backgroundColor: darkMode ? "#000000" : "#FFFFFF"
-  property color buttonBackgroundColor: darkMode ? "#323232" : "#CDCDCD"
+  property color backgroundColor: darkMode ? "#0E0E10" : "#FFFFFF"
+  property color buttonBackgroundColor: darkMode ? "#29292F" : "#CDCDCD"
   readonly property real buttonHeight: 24
   property color buttonHoverBackgroundAppendColor: darkMode ? Qt.rgba(1, 1, 1, 0.1) : Qt.rgba(0, 0, 0, 0.1)
   readonly property real buttonPadding: 4
@@ -119,7 +118,7 @@ QtObject {
   }
   // used in contrast with textColor
 
-  property color pageColor: darkMode ? "#161616" : "#E3E3E3"
+  property color pageColor: darkMode ? "#151518" : "#E3E3E3"
   property color placeholderTextColor: darkMode ? Qt.rgba(1, 1, 1, 0.5) : Qt.rgba(0, 0, 0, 0.5)
   property color primaryColor: zrythmColor
   readonly property PropertyAnimation propertyAnimation: PropertyAnimation {
@@ -140,7 +139,7 @@ QtObject {
     })
   readonly property color soloGreenColor: "#009B86"
   readonly property color springGreen: "#40FFA0"
-  property color textColor: darkMode ? "#E3E3E3" : "#161616" // used in contrast with pageColor
+  property color textColor: darkMode ? "#FFFFFF" : "#161616" // used in contrast with pageColor
   readonly property real textFieldRadius: 4
   readonly property real toolButtonRadius: 6
   readonly property int toolTipDelay: 700
@@ -154,7 +153,7 @@ QtObject {
       "pixelSize": 8,
       "weight": Font.Normal
     })
-  readonly property color zrythmColor: "#FFAE00"
+  readonly property color zrythmColor: "#E6FF00"
 
   function adjustColorForHoverOrVisualFocusOrDown(arg: color, hovered: bool, focused: bool, down: bool): color {
     if (!hovered && !focused && !down)
